@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar > .logo img {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore-wrapper {
+    padding-left: 80px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 0.7em;
+}
+
+.explore {
+    color: #e1d97f;
+}
+
+.spark-dropdown {
+    padding-left: 30px;
+    color: #a9aaa8;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 250px;
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create-button {
+    background-color: #36383f;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 0.7em;
+}
+
+.create-button i {
+    color: #4bce79;
+}
+
+.log-in-button {
+    background-color: #36383f;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 0.7em;
+}
+
+.sign-up-button {
+    background-color: #36383f;
+    padding: 16px 20px; 
+    border-radius: 4px;
+    font-size: 0.7em;
+}
+
+.search-button {
+    color: #7b7e8b;
+}
